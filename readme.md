@@ -101,3 +101,31 @@ git checkout -f 05
 git fetch origin 06:06
 git checkout -f 06
 ````
+
+add user accounts:
+
+````
+meteor add accounts-ui accounts-password
+
+--> {{> loginButtons}}
+
+Accounts.ui.config({
+  passwordSignupFields: "USERNAME_ONLY"
+});
+````
+
+  - http://atmospherejs.com
+  - accounts-facebook
+  - fontawesome
+  - less bootstrap (https://atmospherejs.com/nemo64/bootstrap)
+
+  - show input field only for logged in users
+  - save owner on insert
+  - show created by username span
+
+###STEP07
+
+  ````
+  git fetch origin 07:07
+  git checkout -f 07
+  ````
