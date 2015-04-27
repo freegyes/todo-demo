@@ -73,5 +73,13 @@ git checkout -f 04
 
 ````
 meteor deploy abf-todo
-```` 
-abf-todo.meteor.com
+````
+
+http://abf-todo.meteor.com
+
+````
+meteor install-sdk ios
+meteor add-platform ios
+meteor run ios
+````
+
