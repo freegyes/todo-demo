@@ -83,3 +83,21 @@ meteor add-platform ios
 meteor run ios
 ````
 
+###STEP05
+
+````
+git fetch origin 05:05
+git checkout -f 05
+````
+
+  - implement hide completed feature
+  - Session for storing client related settings
+  - auto updating the template & rerun functions
+  - add incomplete counter 
+
+###STEP06
+
+````
+git fetch origin 06:06
+git checkout -f 06
+````
