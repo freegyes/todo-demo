@@ -129,3 +129,25 @@ Accounts.ui.config({
   git fetch origin 07:07
   git checkout -f 07
   ````
+
+````
+meteor remove insecure
+````
+
+  - define meteor methods --> call them from the client
+  - try deleting without calling the method -->  latency compensation
+
+````
+meteor remove autopublish
+````
+
+  - have to tell the server what to send (publish)
+  - have to tell the client what to look for (subscribe)
+  
+
+  - implement private / public toggle
+  - isOwner function in js // if/else logic in template
+  - setPrivate method, update other methods for security
+  - show in incognito window
+  - show only public and owned --> modify publish
+
