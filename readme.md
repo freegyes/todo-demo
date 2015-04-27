@@ -68,3 +68,10 @@ git checkout -f 04
   - event handlers in the js (template specific)
   - collection
       + insert, update, remove
+
+<kbd>CTRL</kbd>+<kbd>C</kbd>
+
+````
+meteor deploy abf-todo
+```` 
+abf-todo.meteor.com
