@@ -55,3 +55,16 @@ git checkout -f 03
   - add a form to the html for input
   - handle the submit event in the js
   - sort by creation desc
+
+###STEP04
+
+````
+git fetch origin 04:04
+git checkout -f 04
+````
+
+  - replace template for items
+      + {{#each}} {{#if}} {{else}}
+  - event handlers in the js (template specific)
+  - collection
+      + insert, update, remove
