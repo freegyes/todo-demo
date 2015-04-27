@@ -19,5 +19,25 @@ git checkout -f 01
     - css
     - forced lint & minify
 
+````
+git fetch origin 02:02
+git checkout -f 02
+````
 
+- mongodb & minimongo
+
+````
+meteor mongo
+db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
+````
+
+or in browser console (split screen to show hot code push)
+
+````
+Tasks.insert({text: "This is a todo item"})
+````
+
+- collections
+    + publish & subscribe
+    + autopublish & insecure packages 
 
